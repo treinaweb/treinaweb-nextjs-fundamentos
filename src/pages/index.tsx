@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import useIndex from '../data/hooks/pages/useIndex.page';
+import PostList from '../ui/components/PostList/PostList';
 import styles from '../ui/styles/Home.module.css';
 
 export default function Home() {
@@ -17,7 +18,9 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main></main>
+            <main>
+                <PostList posts={posts} />
+            </main>
         </div>
     );
 }
