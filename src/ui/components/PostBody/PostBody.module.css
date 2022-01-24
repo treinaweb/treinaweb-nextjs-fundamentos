@@ -1,0 +1,19 @@
+.post-container {
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.post-title {
+    color: var(--text-primary);
+    font-size: 20px;
+    text-align: center;
+}
+
+.post-picture {
+    width: 100%;
+}
+
+.post-content {
+    color: var(--text-secondary);
+}
